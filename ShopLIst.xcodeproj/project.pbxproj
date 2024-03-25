@@ -14,6 +14,10 @@
 		FAC3D5912B849EBB000C8001 /* ShopLIst.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D58F2B849EBB000C8001 /* ShopLIst.xcdatamodeld */; };
 		FAC3D5932B849EBD000C8001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D5922B849EBD000C8001 /* Assets.xcassets */; };
 		FAC3D5962B849EBD000C8001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D5942B849EBD000C8001 /* LaunchScreen.storyboard */; };
+		FAC3D59F2B849FAA000C8001 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D59D2B849FAA000C8001 /* PhotoTableViewCell.swift */; };
+		FAC3D5A02B849FAA000C8001 /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D59E2B849FAA000C8001 /* PhotoTableViewCell.xib */; };
+		FAC3D5A32B849FB9000C8001 /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D5A12B849FB9000C8001 /* NameTableViewCell.swift */; };
+		FAC3D5A42B849FB9000C8001 /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D5A22B849FB9000C8001 /* NameTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		FAC3D5922B849EBD000C8001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC3D5952B849EBD000C8001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC3D5972B849EBD000C8001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC3D59D2B849FAA000C8001 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		FAC3D59E2B849FAA000C8001 /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoTableViewCell.xib; sourceTree = "<group>"; };
+		FAC3D5A12B849FB9000C8001 /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		FAC3D5A22B849FB9000C8001 /* NameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				FAC3D5942B849EBD000C8001 /* LaunchScreen.storyboard */,
 				FAC3D5972B849EBD000C8001 /* Info.plist */,
 				FAC3D58F2B849EBB000C8001 /* ShopLIst.xcdatamodeld */,
+				FAC3D59D2B849FAA000C8001 /* PhotoTableViewCell.swift */,
+				FAC3D59E2B849FAA000C8001 /* PhotoTableViewCell.xib */,
+				FAC3D5A12B849FB9000C8001 /* NameTableViewCell.swift */,
+				FAC3D5A22B849FB9000C8001 /* NameTableViewCell.xib */,
 			);
 			path = ShopLIst;
 			sourceTree = "<group>";
@@ -128,9 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC3D5A02B849FAA000C8001 /* PhotoTableViewCell.xib in Resources */,
 				FAC3D5962B849EBD000C8001 /* LaunchScreen.storyboard in Resources */,
 				FAC3D5932B849EBD000C8001 /* Assets.xcassets in Resources */,
 				FAC3D58E2B849EBB000C8001 /* Main.storyboard in Resources */,
+				FAC3D5A42B849FB9000C8001 /* NameTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC3D5A32B849FB9000C8001 /* NameTableViewCell.swift in Sources */,
+				FAC3D59F2B849FAA000C8001 /* PhotoTableViewCell.swift in Sources */,
 				FAC3D58B2B849EBB000C8001 /* ViewController.swift in Sources */,
 				FAC3D5872B849EBB000C8001 /* AppDelegate.swift in Sources */,
 				FAC3D5892B849EBB000C8001 /* SceneDelegate.swift in Sources */,
